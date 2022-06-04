@@ -1,0 +1,111 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Contact Form</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.css">
+<!-- main css -->
+    <style type="text/css">
+    h2 {
+    color: darkgray;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 1.50rem 1.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #000;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid darkgrey;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+    input.submit {
+    background: #f84b67;
+    color: #000;
+    border-color: #f84b67;
+    padding: 12px 25px;
+}
+.area-padding {
+    padding: 100px 0;
+}</style>
+
+
+
+</head>
+<body>
+
+   
+
+
+   
+<!-- contact form start here -->
+  <section class="contact-section area-padding">
+    <div class="container">
+                <h2 style="color: #000;"><b>Do website responsive test, on the testing studio  <br><a href="https://thetestingstudio.com">https://thetestingstudio.com</a></b></h2>
+      <div class="row">
+        <div class="col-12">
+          <h2>Contact Form Activation In Html/css</h2>
+          <h2>Recieve Contact Form Messages / Enquiry On Gmail</h2>
+        </div>
+        <div class="col-12">
+          <h2 class="contact-title">Get in Touch</h2>
+        </div>
+        <div class="col-lg-8">
+          <!-- connect to contact.php file use method post -->
+          <form  action="contact2.php" method="post">
+            <div class="row">
+             
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input class="form-control" name="name" id="name" type="text" placeholder="Enter your name" required="">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input class="form-control" name="email" id="email" type="email" placeholder="Enter email address" required="">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input class="form-control" name="subject" id="subject" type="text" placeholder="Enter Subject" required="">
+                </div>
+              </div>
+                <div class="col-sm-6">
+                <div class="form-group">
+                  <input class="form-control" name="mobile" id="mobile" type="text" placeholder="Enter Mobile" required="">
+                </div>
+              </div>
+               <div class="col-12">
+                <div class="form-group">
+                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="5" placeholder="Enter Message" required=""></textarea>
+                </div>
+              </div>
+
+              <input type="submit" name="submit" class="submit" value="SEND MESSAGE">
+                                        
+
+            </div>
+         
+          </form>
+
+
+        </div>
+
+        
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+</body>
+</html>
